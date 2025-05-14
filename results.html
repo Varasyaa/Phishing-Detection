@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Result</title>
+</head>
+<body>
+    <h1>Analysis Result</h1>
+    <ul>
+        {% for key, value in result.items() %}
+            <li>{{ key.replace('_', ' ').capitalize() }}: {{ 'Yes' if value else 'No' }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Analyze another</a>
+</body>
+</html>
