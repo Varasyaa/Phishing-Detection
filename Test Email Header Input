@@ -1,0 +1,4 @@
+Received-SPF: fail
+Authentication-Results: dmarc=none (p=NONE) dkim=fail spf=fail
+Return-Path: <abc@spoof.com>
+From: "Amazon Security" <support@amazon.com>
